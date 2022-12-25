@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+
+body {
+    min-height: calc(100% - 3rem);
+    display: grid;
+    place-items: center;}
+.container {
+    text-align: center;
+}
+.container h2{
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2.5rem;
+    margin-top:6rem;}
+.color { color: hsl(205, 78%, 60%);}
+.btn-hero {
+    font-family:"Ranchers", sans-serif;
+  display: inline-block;
+    padding: 0.75rem 0.25rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    border-radius: 0.5rem;
+    color: white;
+    border-color:cornflowerblue;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;}
+.btn-hero:hover{
+background-color: white;
+color: cornflowerblue;}
